@@ -1,0 +1,3 @@
+# Cross-Validation and Feature Engineering with the Case Study Data
+
+In this challenge, we'll apply the knowledge of cross-validation and regularization that we've learned in this lesson to the case study data. We'll perform basic feature engineering. In order to estimate parameters for the regularized logistic regression model for the case study data, which is larger in size than the synthetic data that we've worked with, we'll use the saga solver. In order to use this solver, and for the purpose of regularization, we'll need to scale our data as part of the modeling process, leading us to the use of Pipelines in scikit-learn
