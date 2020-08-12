@@ -1,0 +1,3 @@
+# Fitting a Logistic Regression Model and Directly Using the Coefficients
+
+In this Project, we're going to train a logistic regression model on the two most important features we discovered in univariate feature exploration, as well as learn how to manually implement logistic regression using coefficients from the fitted model. This will show you how you could use logistic regression in a computing environment where scikit-learn may not be available, but the mathematical functions necessary to compute the sigmoid function are. On successful completion of the challenge, you should observe that the calculated ROC AUC values using scikit-learn predictions and those obtained from manual predictions should be the same: approximately 0.63.
